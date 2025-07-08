@@ -206,7 +206,7 @@ const Navigation: React.FC = () => {
   return (
     <NavigationContainer $isScrolled={isScrolled} $scrollProgress={scrollProgress}>
       <NavContent>
-        <Logo>NEXUS</Logo>
+        <Logo>SILER</Logo>
         
         <NavMenu>
           {navItems.map((item) => (

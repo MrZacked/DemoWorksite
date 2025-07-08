@@ -142,7 +142,7 @@ const Footer: React.FC = () => {
       <FooterContent>
         <FooterGrid>
           <FooterSection>
-            <Logo>NEXUS</Logo>
+            <Logo>SILER</Logo>
             <p style={{ color: 'rgba(255, 255, 255, 0.6)', marginTop: '15px', lineHeight: '1.6' }}>
               Your ultimate destination for gaming news, reviews, and community insights. 
               Stay connected with the pulse of gaming culture.
@@ -215,7 +215,7 @@ const Footer: React.FC = () => {
 
         <FooterBottom>
           <Copyright>
-            © 2024 Nexus Gaming Hub. All rights reserved.
+            © 2024 Siler Gaming Hub. All rights reserved.
           </Copyright>
           <div style={{ display: 'flex', gap: '30px', flexWrap: 'wrap' }}>
             <a href="#" style={{ color: 'rgba(255, 255, 255, 0.5)', textDecoration: 'none', fontSize: '0.9rem' }}>

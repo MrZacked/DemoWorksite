@@ -1,4 +1,4 @@
-
+ 
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import StyledComponentsRegistry from '@/components/StyledComponentsRegistry';
@@ -13,23 +13,37 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Nexus Gaming Hub | Ultimate Gaming News & Reviews',
+  title: 'Siler Gaming Hub | Ultimate Gaming News & Reviews',
   description: 'Discover the latest gaming news, reviews, and exclusive content. Immerse yourself in the future of gaming with cutting-edge design and interactive experiences.',
   keywords: 'gaming news, game reviews, esports, gaming technology, gaming community',
-  authors: [{ name: 'Nexus Gaming Hub' }],
+  authors: [{ name: 'Siler Gaming Hub' }],
   openGraph: {
-    title: 'Nexus Gaming Hub | Ultimate Gaming News & Reviews',
+    title: 'Siler Gaming Hub | Ultimate Gaming News & Reviews',
     description: 'Discover the latest gaming news, reviews, and exclusive content.',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nexus Gaming Hub | Ultimate Gaming News & Reviews',
+    title: 'Siler Gaming Hub | Ultimate Gaming News & Reviews',
     description: 'Discover the latest gaming news, reviews, and exclusive content.',
   },
-  viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
+  icons: {
+    icon: [
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/android-icon-36x36.png', sizes: '36x36', type: 'image/png' },
+    ],
+    shortcut: '/favicon-32x32.png',
+    apple: [
+      { url: '/apple-icon-72x72.png', sizes: '72x72', type: 'image/png' },
+    ],
+  },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({

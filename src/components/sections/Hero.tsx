@@ -324,7 +324,7 @@ const Hero: React.FC = () => {
             delay: performance.enableReducedMotion ? 0 : 0.2 
           }}
         >
-          NEXUS
+                      SILER
         </MainTitle>
         
         <SubTitle
